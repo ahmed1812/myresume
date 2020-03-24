@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Thanks for downloading this template!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js || dev",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.6",
+    "nodemailer-mailgun-transport": "^2.0.0"
+  }
+}
