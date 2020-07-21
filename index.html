@@ -24,12 +24,14 @@
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 />
+
 
 </head>
 
@@ -435,15 +437,44 @@
               <h4>Call:</h4>
               <p>+1 224-520-1811</p>
             </div>
-
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2962.2452079307714!2d-88.08458808468791!3d42.05936317920822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880faf5700cb97a9%3A0x2eddeac63fb80d7b!2s75%20Kristin%20Cir%2C%20Schaumburg%2C%20IL%2060195!5e0!3m2!1sen!2sus!4v1584505555953!5m2!1sen!2sus"
+            frameborder="0" style="border:0; width: 100%; height: 490px;" allowfullscreen></iframe>
             
           </div>
         </div>
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
            
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2962.2452079307714!2d-88.08458808468791!3d42.05936317920822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880faf5700cb97a9%3A0x2eddeac63fb80d7b!2s75%20Kristin%20Cir%2C%20Schaumburg%2C%20IL%2060195!5e0!3m2!1sen!2sus!4v1584505555953!5m2!1sen!2sus"
-              frameborder="0" style="border:0; width: 100%; height: 490px;" allowfullscreen></iframe>
+            <form action="https://formspree.io/algandel86@gmail.com" method="post"  class="php-email-form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name"  />
+                  <div class="statusn"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email"  />
+                  <div class="statuse"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject"  />
+                <div class="statuss"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" id="message" rows="10" ></textarea>
+                <div class="statusm"></div>
+              </div>
+              <!-- <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div> -->
+              <div class="text-center"><button type="submit" class="submit">Send Message</button></div>
+            </form>
               
           </div>
 
@@ -465,8 +496,11 @@
   </footer><!-- End  Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
- 
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+
 
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <!-- Vendor JS Files -->
@@ -482,6 +516,7 @@
   <script src="assets/vendor/aos/aos.js"></script>
 
   <!-- Template Main JS File -->
+  <script src="assets/js/form.js"></script>
   <script src="assets/js/main.js"></script>
 
 </body>
